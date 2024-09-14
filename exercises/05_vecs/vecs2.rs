@@ -32,11 +32,7 @@ fn vec_map(input: &[i32]) -> Vec<i32> {
     //     .collect()
 
     // Passing function instead:
-    input
-        .iter()
-        .map(double)
-        .collect()
-
+    input.iter().map(double).collect()
 }
 
 fn double(number: &i32) -> i32 {
