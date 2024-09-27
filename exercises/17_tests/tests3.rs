@@ -32,7 +32,6 @@ mod tests {
         assert_eq!(rect.width, 10); // Check width
         assert_eq!(rect.height, 20); // Check height
     }
-
     // TODO: This test should check if the program panics when we try to create
     // a rectangle with negative width.
     #[test]
